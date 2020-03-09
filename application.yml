@@ -5,6 +5,7 @@ spring:
 ---
 spring:
   profiles: dev
+    test: ok_dev
   application: 
     name: microservice-config-atguigu-dev
 
@@ -12,6 +13,7 @@ spring:
 ---
 spring:
   profiles: test
+    test: ok_test
   application: 
     name: microservice-config-atguigu-test      
       
