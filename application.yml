@@ -1,5 +1,9 @@
-
+test: ok
+spring:
+  profiles:
+    active: dev
 ---
+test: ok_dev
 spring:
   profiles: dev
   application: 
