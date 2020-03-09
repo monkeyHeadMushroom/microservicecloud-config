@@ -1,7 +1,4 @@
-spring:
-  profiles:
-    active: dev
-    test: ok
+
 ---
 spring:
   profiles: dev
