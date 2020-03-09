@@ -1,18 +1,18 @@
-test: ok
 spring:
   profiles:
     active: dev
 ---
-test: ok_dev
 spring:
-  profiles: dev
+  profiles: 
+    active: dev
   application: 
     name: microservice-config-atguigu-dev
 
 
 ---
 spring:
-  profiles: test
+  profiles: 
+    active: test
   application: 
     name: microservice-config-atguigu-test      
       
