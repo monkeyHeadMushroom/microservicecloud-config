@@ -1,14 +1,11 @@
-test: tt
 spring:
   profiles:
-    active: hhh
-    
-    
+    active: dev
 ---
 server:
   port: 8201
 spring:
-  profiles: hh
+  profiles: dev
   application: 
     name: microservice-config-client
 eureka: 
@@ -19,13 +16,12 @@ eureka:
 
 ---
 server:
-  port: 82021
+  port: 8202
 spring:
-  profiles: xx
+  profiles: test
   application: 
     name: microservice-config-client
 eureka: 
   client: 
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/       
-      
