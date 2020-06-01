@@ -1,14 +1,14 @@
 test: tt
 spring:
   profiles:
-    active: dev
+    active: hhh
     
     
 ---
 server:
   port: 8201
 spring:
-  profiles: dev
+  profiles: hh
   application: 
     name: microservice-config-client
 eureka: 
@@ -21,7 +21,7 @@ eureka:
 server:
   port: 82021
 spring:
-  profiles: test
+  profiles: xx
   application: 
     name: microservice-config-client
 eureka: 
